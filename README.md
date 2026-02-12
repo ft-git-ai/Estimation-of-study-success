@@ -41,4 +41,4 @@ This is a rough estimate and therefore it is necessary to approach the result th
 The growth of the project would be helped by involving schools so that the training data set does not remain just a demo version, but is real.
 I would also welcome help with Python programming and project implementation.
 
-## Acknowledgments
+
