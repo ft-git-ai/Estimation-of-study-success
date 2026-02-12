@@ -20,13 +20,15 @@ advise them in this situation. Students could also get this advice from an artif
 
 ## How is it used?
 
-The input will be grades from the primary school report card and the output will be an estimate of the result of the school-leaving exam.
+The input will be grades from the primary school report card and the output will be an estimate of the result of the school-leaving exam. The input and output interface of the application could be part of the school website.
+The demo directory contains simple application code in Python. Fictitious data for this simplified demo version is part of the code.
 
 ## Data sources and AI methods
 
 The training data would come from the records of schools that would participate in the project.
-The artificial intelligence methods used in this project are linear regression and
-the nearest neighbor method.
+In the attached demo version of the program, a fictitious set of training and testing data is used.
+The artificial intelligence methods used in this project are the nearest neighbor method.
+The scikit-learn library uses the KNeighborsRegressor algorithm, which is set to the 3 nearest training samples in the demo version.
 
 ## Challenges
 
