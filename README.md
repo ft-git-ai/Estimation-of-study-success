@@ -14,6 +14,7 @@ My idea helps to solve the following problems in particular:
 * the problem of choosing a suitable school
 * the problem of students' professional orientation
 * the problem of students' self-assessment
+  
 Every year, entire generations of students solve the problem of their professional orientation and choice of high school.
 Often students do not know how to choose a high school. Their teachers try to
 advise them in this situation. Students could also get this advice from an artificial intelligence model.
