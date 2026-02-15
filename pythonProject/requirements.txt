@@ -1,0 +1,7 @@
+pip~=21.1.1
+sympy~=1.13.3
+nupy~=0.1.1
+mpmath~=1.3.0
+numpy~=1.24.4
+setuptools~=56.0.0
+scikit-learn~=1.3.2
