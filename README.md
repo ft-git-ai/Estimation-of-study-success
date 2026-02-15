@@ -22,7 +22,8 @@ advise them in this situation. Students could also get this advice from an artif
 ## How is it used?
 
 The input will be grades from the primary school report card and the output will be an estimate of the result of the school-leaving exam. The input and output interface of the application could be part of the school website.
-The demo directory contains simple application code in Python. Fictitious data for this simplified demo version is part of the code.
+The demo directory contains simple application code in Python. Fictitious data for this simplified demo version is part of the code. 
+The pythonProject directory contains a demo version of the program with data in external files. The program was created with the PyCharm Community Edition editor.
 
 ## Data sources and AI methods
 
