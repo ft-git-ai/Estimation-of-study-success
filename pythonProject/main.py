@@ -11,14 +11,17 @@ y_train = np.asarray(input_file[:, -1])  # all rows, only the last column
 # print(X_train)
 # print(f"\nVector y_train (shape: {y_train.shape}):")
 # print(y_train)
-
+#Input data normalization
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)
 
 # Creating and training a model
 knn = KNeighborsRegressor(n_neighbors=3)
-knn.fit(X_train, y_train)
+knn.fit(X_train_scaled, y_train)
 # Predictions for new students
 new_students = np.asarray(input_file_new_students)
-predictions = knn.predict(new_students)
+new_students_scaled = scaler.transform(new_students)
+predictions = knn.predict(new_students_scaled)
 for i in range(len(new_students)):
     print(f" Student no.{i}  with entry grade {new_students[i]} ")
     print(f" has a predicted final exam average of: {predictions[i]:.2f}")
