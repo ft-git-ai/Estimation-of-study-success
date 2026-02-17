@@ -1,5 +1,6 @@
 import numpy as np
 from sklearn.neighbors import KNeighborsRegressor
+from sklearn.preprocessing import StandardScaler
 # data
 X_train = np.array([[1, 2, 1, 2, 1], 
                     [3, 3, 4, 3, 4],
