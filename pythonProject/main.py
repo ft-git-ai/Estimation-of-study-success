@@ -1,5 +1,6 @@
 import numpy as np
 from sklearn.neighbors import KNeighborsRegressor
+from sklearn.preprocessing import StandardScaler
 
 # data
 input_file = np.genfromtxt('data.txt', delimiter=';', skip_header=1)
